@@ -26,12 +26,13 @@ header nav .nav-left-section {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 15px;
+  padding-left: 26px;
 }
 header nav .nav-right-section {
   width: 250px;
   height: inherit;
   list-style: none;
+  font-size: 13px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -46,10 +47,21 @@ nav .nav-right-section .menu-icon {
   background-size: contain;
   width: 18px;
   height: 18px;
+  margin-left: 11px;
+}
+.menu-icon:hover {
+  width: 20px;
+  height: 20px;
+  box-shadow: 0 0 0 10px #eff4fd;
+  border-radius: 50%;
 }
 nav .nav-right-section .profile-photo {
   border-radius: 50%;
-  margin-left: 10px;
+  margin-left: 5px;
+}
+.profile-photo:hover {
+  box-shadow: 0 0 0 4px #eff4fd;
+  border-radius: 50%;
 }
 main {
   margin-top: 150px;
