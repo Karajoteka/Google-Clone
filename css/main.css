@@ -151,3 +151,19 @@ main .main-buttons button:hover {
   background-color: #f8f8f8;
   cursor: pointer;
 }
+main .languages {
+  font-size: 13px;
+  color: #5f6368;
+  width: 530px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-inline-start: 0;
+}
+main .languages li {
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  padding-left: 10px;
+}
