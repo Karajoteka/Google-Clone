@@ -159,6 +159,8 @@ main .languages {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+main .languages ul {
   padding-inline-start: 0;
 }
 main .languages li {
